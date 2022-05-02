@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo-block">
+            <img src="odin-lined.png" alt="odin logo"> <span>ODIN</span>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-desc">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="main-form">
+            <h3>Let's do this!</h3>
+            <form>
+                <label for="first-name">First Name<input id="first-name" type="text" autocomplete="off"></label>
+                <label for="last-name">Last Name<input id="last-name" type="text" autocomplete="off"></label>
+                <label for="email">Email<input id="email" type="email" autocomplete="off"><p class="error email-error"></p></label>
+                <label for="phone">Phone Number<input id="phone" type="tel" autocomplete="off"></label>
+                <label for="pass">Password<input id="pass" type="password"><p class="error pass-error">* Passwords do not match</p></label>
+                <label for="confirm-pass">Confirm Password<input id="confirm-pass" type="password"></label>
+            </form>
+        </div>
+        <div class="main-submit">
+            <button type="submit">Create Account</button>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
